@@ -14,6 +14,3 @@ run: |
   --net
   googlenet
   --gpu
-
-profile: |
-  python -u train.py --net googlenet --gpu --profiling
